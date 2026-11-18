@@ -1,0 +1,20 @@
+# Локальные настройки окружения
+.env
+*.env
+!.env.example
+
+# Go
+/backend/bin/
+/backend/tmp/
+*.exe
+*.test
+*.out
+vendor/
+go.work
+go.work.sum
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.log
